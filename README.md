@@ -83,6 +83,12 @@ After a bit of troubleshooting getting the old agent uninstalled and reinstallin
 
 
 
+And with that, I've added my personal desktop to my ShererMon Policy, with Elastic Defend, SysMon, etc. 
+
+![image](https://github.com/bananagav/ELKPi/assets/117794258/3ecdb8aa-6956-4fe8-8e0d-e6a49597316d)
+
+
+
 
 
 
