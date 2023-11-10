@@ -31,5 +31,10 @@ New problem, when I try to Curl the service to test connectivity, it shows
 
 Which looks to me like the security features are enabled, causing me to need to provide credentials(Which I haven't set up yet)
 
+Created auto-gen password with 
+
+./bin/elasticsearch-setup-passwords -u elastic
+
+
 
 
