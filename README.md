@@ -40,5 +40,14 @@ Created auto-gen password with
 ./bin/elasticsearch-setup-passwords -u elastic
 
 
+Installing Kibana
+
+https://www.elastic.co/guide/en/kibana/8.11/deb.html
+
+Given that the initial keyring and repo update added kibana, install went smoothly
+
+
+
+
 
 
