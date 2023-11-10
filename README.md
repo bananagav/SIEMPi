@@ -46,6 +46,14 @@ https://www.elastic.co/guide/en/kibana/8.11/deb.html
 
 Given that the initial keyring and repo update added kibana, install went smoothly
 
+Logstash is now installed as well. 
+
+Working on configuration of the three, using this video
+
+https://www.youtube.com/watch?v=5L6LOhG20V0&ab_channel=LabIT
+
+
+
 
 
 
