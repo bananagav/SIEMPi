@@ -3,6 +3,10 @@ ELK Stack on Raspberry Pi 4 8GB Homelab project
 
 For this project, I'm creating an ELK Instance on a Raspberry Pi 4 as a home SIEM to monitor my network, endpoints, and network traffic. 
 
+Following this article for a majority of the setup
+
+https://logz.io/blog/elk-stack-raspberry-pi/
+
 11/08/2023 
 
 Initially, I tried using a Raspberry Pi OS distro for the project but found issues trying to install Elasticsearch.
