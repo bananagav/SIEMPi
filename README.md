@@ -70,9 +70,11 @@ Now after working with the .ymls for elastic and kibana, I've created an enrollm
 
 Now that I have my dashboard set up, it's time to start getting some data into Elastic. 
 
-Going to be starting with my personal computer, using this guide from Elastic
+Starting with my personal computer, it's time to figure out how to install the Elastic Agent
 
-https://www.elastic.co/guide/en/fleet/current/install-standalone-elastic-agent.html
+![image](https://github.com/bananagav/ELKPi/assets/117794258/952224a0-3d09-4a7d-ba36-9df6975a0bbd)
+
+
 
 
 
