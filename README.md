@@ -65,6 +65,21 @@ Now after working with the .ymls for elastic and kibana, I've created an enrollm
 ![image](https://github.com/bananagav/ELKPi/assets/117794258/8e724d05-d75f-4809-a934-abe319bab862)
 
 
+11/10/2023 - Elastic Agents Deployment
+
+
+Now that I have my dashboard set up, it's time to start getting some data into Elastic. 
+
+Going to be starting with my personal computer, using this guide from Elastic
+
+https://www.elastic.co/guide/en/fleet/current/install-standalone-elastic-agent.html
+
+
+
+
+
+
+
 
 
 
