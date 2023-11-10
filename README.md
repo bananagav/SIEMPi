@@ -75,6 +75,14 @@ Starting with my personal computer, it's time to figure out how to install the E
 ![image](https://github.com/bananagav/ELKPi/assets/117794258/952224a0-3d09-4a7d-ba36-9df6975a0bbd)
 
 
+After a few hours, and trying to install a standalone agent, to no avail, I've switched to trying to use Fleet...
+
+After a bit of troubleshooting getting the old agent uninstalled and reinstalling the new Fleet server, enrolling, and connecting to Kibana, they are now communicating
+
+![image](https://github.com/bananagav/ELKPi/assets/117794258/b97888b4-0968-4d35-acf2-f2c2d8e457aa)
+
+
+
 
 
 
