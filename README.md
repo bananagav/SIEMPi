@@ -48,10 +48,21 @@ Given that the initial keyring and repo update added kibana, install went smooth
 
 Logstash is now installed as well. 
 
-Working on configuration of the three, using this video
+A few hours later, now 10:03. 
 
-https://www.youtube.com/watch?v=5L6LOhG20V0&ab_channel=LabIT
+Working on linking Kibana and Elastic, after some troubleshooting I've found a forum post about how to configure these after I ran into an issue with my user/pass linking up along with other things 
 
+
+The exact error I was getting was this
+
+[ERROR][elasticsearch-service] Unable to retrieve version information from Elasticsearch nodes. self-signed certificate in certificate chain
+
+https://discuss.elastic.co/t/kibana-unable-to-retrieve-version-information-from-elasticsearch-nodes-self-signed-certificate-in-certificate-chain/299159/3
+
+
+Now after working with the .ymls for elastic and kibana, I've created an enrollment token to sync the two. 
+
+![image](https://github.com/bananagav/ELKPi/assets/117794258/8e724d05-d75f-4809-a934-abe319bab862)
 
 
 
