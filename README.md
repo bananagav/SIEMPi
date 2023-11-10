@@ -23,6 +23,13 @@ After looking through the Elastic Log file, the Error is
  fatal exception while booting Elasticsearch
 java.lang.IllegalArgumentException: setting [cluster.initial_master_nodes] is not allowed when [discovery.type] is set to [single-node]
 
-After commenting out that line, the service runs! Time to continue with the rest of my ELK Stack installation. 
+After commenting out that line, the service runs! Time to continue with trying to get everything running
+
+New problem, when I try to Curl the service to test connectivity, it shows
+
+{"error":{"root_cause":[{"type":"security_exception","reason":"unable to authenticate user [gav] for REST request [/]","header":{"WWW-Authenticate":["Basic realm=\"security\" charset=\"UTF-8\"","Bearer realm=\"security\"","ApiKey"]}}],"type":"security_exception","reason":"unable to authenticate user [gav] for REST request [/]","header":{"WWW-Authenticate":["Basic realm=\"security\" charset=\"UTF-8\"","Bearer realm=\"security\"","ApiKey"]}},"status":401}
+
+Which looks to me like the security features are enabled, causing me to need to provide credentials(Which I haven't set up yet)
+
 
 
