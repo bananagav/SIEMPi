@@ -48,7 +48,8 @@ https://discuss.elastic.co/t/kibana-unable-to-retrieve-version-information-from-
 
 Now after working with the .ymls for elastic and kibana, I've created an enrollment token to sync the two.
 
-image
+![image](https://github.com/bananagav/ELKPi/assets/117794258/a252a545-d8e9-4301-9ba0-8e527d77cb95)
+
 
 11/10/2023 - Elastic Agents Deployment
 
@@ -56,14 +57,17 @@ Now that I have my dashboard set up, it's time to start getting some data into E
 
 Starting with my personal computer, it's time to figure out how to install the Elastic Agent
 
-image
+![image](https://github.com/bananagav/ELKPi/assets/117794258/013ab8b9-8d6b-489e-b7e5-285b872a7b85)
+
 
 After a few hours, and trying to install a standalone agent, to no avail, I've switched to trying to use Fleet...
 
 After a bit of troubleshooting getting the old agent uninstalled and reinstalling the new Fleet server, enrolling, and connecting to Kibana, they are now communicating
 
-image
+![image](https://github.com/bananagav/ELKPi/assets/117794258/412299cf-be98-48b0-855c-4a4c6c4e6968)
+
 
 And with that, I've added my personal desktop to my ShererMon Policy, with Elastic Defend, SysMon, etc.
 
-image
+![image](https://github.com/bananagav/ELKPi/assets/117794258/562328f9-57e9-4ed4-a7a6-89377be95fa6)
+
