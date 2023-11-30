@@ -21,3 +21,13 @@ This describes the expected workflow using ELK
 ![image](https://github.com/bananagav/SIEMPi/assets/117794258/95d548f3-1a22-43d9-9140-2ac91f7807c3)
 
 As a SOC analyst, I would like to learn how to properly work through alerts, investigate, and open cases to document findings and remediation.
+
+
+Now that I have my rules set up and alerts coming in, it's time to learn how to investigate. 
+
+From this diagram, the place to start looks to be the Timelines tab.
+
+https://www.elastic.co/guide/en/security/8.11/timelines-ui.html
+
+
+
