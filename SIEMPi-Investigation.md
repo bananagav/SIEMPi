@@ -65,4 +65,10 @@ There is an overview showing the status, Severity, Rule, Risk Score, the Reasons
 
 ![image](https://github.com/bananagav/SIEMPi/assets/117794258/d8fab2ef-24af-4fd5-b8ae-a0054fa1953b)
 
+Moving on from that, using the *Analyze Event* Button, ![image](https://github.com/bananagav/SIEMPi/assets/117794258/3b608796-4d9b-4d76-a56c-cc035c909271) You can open the Analyzer Tab
+
+Which looks like this, Showing the Running processes that created the event. In this case, Chrome.
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/e5e1809c-2d77-4f48-bf6d-75d52198ea59)
+
 
