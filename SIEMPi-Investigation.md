@@ -34,3 +34,16 @@ To begin, the alert I will be investigating will be *Threat Intel IP Address Ind
 ![image](https://github.com/bananagav/SIEMPi/assets/117794258/4391e799-33ae-427e-8ef2-ba61ae4ab07b)
 
 I currently have 44 Matches over the past 15 days. 
+
+
+To begin the investigation I'll be creating a timeline
+
+When you create a timeline, you add fields below the time range selection in order to pull alerts to view. 
+
+Using the filter ( kibana.alert.rule.name:"Threat Intel IP Address Indicator Match" ) I was able to pull all of the alerts to investigate. 
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/050e7eb8-dd0d-478b-9409-ea3a5a150140)
+
+
+
+
