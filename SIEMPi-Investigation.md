@@ -53,7 +53,16 @@ You can see the event action, Source, Destination, Ports, etc.
 In this case, since I'm investigating a threat intel IP Address match, we're gonna focus on Destination IP and Process. 
 
 
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/8dc79f6e-4a50-4053-8144-53032be4ef5e)
 
 
+Using the view details tab you can open up the event and see more information 
+
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/96e99949-9d42-4696-a4d6-bf9e2d534ad8)
+
+There is an overview showing the status, Severity, Rule, Risk Score, the Reasons for the event, you can view all of the fields in table, get risk data and it even comes with an Investigation Guide, which is a built in playbook for what the event means, why it's happening, fields to investigate, Remediation, What to do if it's a false positive and more. It's incredibly in-depth. 
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/d8fab2ef-24af-4fd5-b8ae-a0054fa1953b)
 
 
