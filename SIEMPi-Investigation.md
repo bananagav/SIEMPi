@@ -29,5 +29,8 @@ From this diagram, the place to start looks to be the Timelines tab.
 
 https://www.elastic.co/guide/en/security/8.11/timelines-ui.html
 
+To begin, the alert I will be investigating will be *Threat Intel IP Address Indicator Match* Which uses IOCs imported from AbuseCH using their integration. 
 
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/4391e799-33ae-427e-8ef2-ba61ae4ab07b)
 
+I currently have 44 Matches over the past 15 days. 
