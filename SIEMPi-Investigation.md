@@ -44,6 +44,16 @@ Using the filter ( kibana.alert.rule.name:"Threat Intel IP Address Indicator Mat
 
 ![image](https://github.com/bananagav/SIEMPi/assets/117794258/050e7eb8-dd0d-478b-9409-ea3a5a150140)
 
+Here's a sample of the information with the alert
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/42bbd67d-b6d4-4efa-b877-cac88c30658f)
+
+You can see the event action, Source, Destination, Ports, etc. 
+
+In this case, since I'm investigating a threat intel IP Address match, we're gonna focus on Destination IP and Process. 
+
+
+
 
 
 
