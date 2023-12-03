@@ -73,4 +73,12 @@ Which looks like this, Showing the Running processes that created the event. In 
 
 12/2/2023 - Continuing the Investigation - Threat Intel IP Match
 
-For this specific investigation 
+For this specific investigation, the threat IP indicator my SIEMPi is alerting on is (destination.ip: "204.79.197.200") on port 443. 
+
+
+By bringing up the details tab, you can see that this event flags as a Critical Alert with a 99 Risk score.
+
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/94714459-5f2c-4988-a67d-779b26144964)
+
+
