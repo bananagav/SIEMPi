@@ -71,4 +71,6 @@ Which looks like this, Showing the Running processes that created the event. In 
 
 ![image](https://github.com/bananagav/SIEMPi/assets/117794258/e5e1809c-2d77-4f48-bf6d-75d52198ea59)
 
+12/2/2023 - Continuing the Investigation - Threat Intel IP Match
 
+For this specific investigation 
