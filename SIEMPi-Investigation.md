@@ -114,6 +114,10 @@ https://polyswarm.network/scan/results/url/a67bebaf28610074396e820a63098e4d27b10
 
 The Talos IP reputation lookup shows the reputation as good, with no FWD/REV DNS Match.
 
+
+12/3/2023
+
+
 I can see responses when I search for this Destination IP specifically, and I am seeing traffic from chrome to and from this IP, but given that it's Chrome, I'm not assuming it's some type of malware. Also, given that all of the things I've looked up and researched have led to this IP being related to Microsoft Edge I don't believe this is malicious. 
 
 
