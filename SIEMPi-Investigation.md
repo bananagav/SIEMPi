@@ -82,3 +82,36 @@ By bringing up the details tab, you can see that this event flags as a Critical 
 ![image](https://github.com/bananagav/SIEMPi/assets/117794258/94714459-5f2c-4988-a67d-779b26144964)
 
 
+The process creating this activity is Chrome, which appears as process.name: "chrome.exe"
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/0f26a0f8-a993-4eaa-806b-90693161f1ed)
+
+The Investigation guide gives me a few points to investigate, including Context about the matching field, Investigating the IP Address's Reputation using VirusTotal, Hybrid Analysis, Talos, etc. Also it advises excuting a Reverse DNS Lookup to see the hostnames associated with the IP. 
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/e1d255e3-d366-46e2-9732-d61977c015c6)
+
+I'll start with VirusTotal, and move forward from there, using other tools like PolySwarm, MXToolBox, and Brightcloud to check the reputation of the IP Address. 
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/203b4f53-4cdd-4daf-b286-2cf4a61985b5)
+
+https://www.virustotal.com/gui/ip-address/204.79.197.200
+
+For VirusTotal, It shows a 4/88, from CyRadar, CRDF, Criminal IP, VIPRE and as a Mixed IOC from ArcSight Threat Intel for "IT-Dienstleister". 
+
+Looking at the community score, It's way down and the community page shows entries for Phishing Campaigns 5 months ago, to a C2 and SSH Bruteforce 3 Years ago. 
+
+MXToolBbox Reverse DNS shows the IP as a-0001[.]a-msedge[.]net and wasnt convicted by any of the blacklists there...
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/0069905c-f64c-48e9-9345-8e166bc14aa1)
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/c3a52352-1a3a-4a6e-a2bb-8d31d7bb8e6c)
+
+Searching for the IP on PolySwarm shows as a 1/4 Engines reporting malicious, with Criminal IP
+
+https://polyswarm.network/scan/results/url/a67bebaf28610074396e820a63098e4d27b1038896d8a70a8d8501acdabd302c
+
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/05da5cf6-0ba9-4ed7-828d-a61136adc77a)
+
+The Talos IP reputation lookup shows the reputation as good, with no FWD/REV DNS Match.
+
+
