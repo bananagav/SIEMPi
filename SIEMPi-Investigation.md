@@ -132,6 +132,9 @@ It seems like this traffic is associated with OneDrive, Edge, or some other Micr
 
 Given that it's owned by Microsoft, I'm not too concerned, as the alternative is it being malware. I don't see this as an issue currently, but I'll go ahead and add a Firewall rule to my system to block that IP. 
 
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/2b6c044c-3f2d-4913-a035-c39bdb9efd38)
+
+
 Created Windows Firewall rule to block the IP. Hoping to see the end of these alerts after this. Will Update if required. 
 
 
