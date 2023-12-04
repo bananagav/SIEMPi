@@ -138,6 +138,14 @@ Given that it's owned by Microsoft, I'm not too concerned, as the alternative is
 Created Windows Firewall rule to block the IP. Hoping to see the end of these alerts after this. Will Update if required. 
 
 
+12/4/2023
 
+Now, to organize, I'm creating a Case to document the Alerts, the Actions taken and ultimately learn how the whole pipeline should work and operate from start to finish. 
 
+I've created a case, added the alert to the case, added the timeline I created earlier in my investigation. 
 
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/bc222eac-52c9-4ccd-a2d3-640dc7d81d85)
+
+I'm unable to add all 50 rules at once to the case, so for time sake I'm adding the first 10 in the list for a decent sample, all of the alerts are from the exact same IP regardless. 
+
+From here, I've added what actions I took, including making the Firewall Rule. Timeline is synched, and I'm ready to close out this investigation and all of the alerts, concluding my first investigation on the home SIEMPi
