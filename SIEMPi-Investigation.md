@@ -118,9 +118,18 @@ The Talos IP reputation lookup shows the reputation as good, with no FWD/REV DNS
 12/3/2023
 
 
-I can see responses when I search for this Destination IP specifically, and I am seeing traffic from chrome to and from this IP, but given that it's Chrome, I'm not assuming it's some type of malware. Also, given that all of the things I've looked up and researched have led to this IP being related to Microsoft Edge I don't believe this is malicious. 
+Continuing the investigation from yesterday, I'm researching the IOC IP Match that I've received several alerts on. 
 
+https://www.criminalip.io/asset/report/204.79.197.200
 
+Many of the Reputation checkers I used yesterday showed Criminal IP as one of the vendors flagging this IP as malicious so finding out what they have on the IP should be enlightening. 
 
+![image](https://github.com/bananagav/SIEMPi/assets/117794258/f81ab7e7-3008-48f0-bcdb-cd7133d0bacf)
+
+The IP score shows the inbound traffic as malicious, but the outbound traffic as only moderate. 
+
+It seems like this traffic is associated with OneDrive, Edge, or some other Microsoft Service but it's not clear to me exactly which service it is and why it's contacting me. 
+
+Given that it's owned by Microsoft, I'm not too concerned, as the alternative is it being malware. I don't see this as an issue currently, but I'll go ahead and add a Firewall rule to my system to block that IP. 
 
 
