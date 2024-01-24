@@ -1,0 +1,5 @@
+An Update
+
+I've purchased and installed an unmanaged switch, and now my SIEM is connected to ethernet. 
+
+Though since getting this connected I've had trouble getting things to connect, I believe the Pi changed some of it's networking settings when I got the ethernet connected, so I'm gonna begin the process to get my networking settled in and together. One of the things I need to do is set my SIEM to a static IP, so we don't run into any issue with this in the future
