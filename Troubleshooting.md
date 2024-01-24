@@ -10,3 +10,4 @@ Time to start troubleshooting, first I've enabled a firewall rule allowing traff
 11/29/2023 - An Update
 
 Fleet seems to want to stop working whenever the server restarted before, which is what I mentioned above, but after tooling with the permissions on my elastic, kibana, and the download file folders I've gotten it to stop being weird and it will now stay alive even after a restart. 
+
